@@ -1,18 +1,19 @@
 ## 2 内置函数
 * 1 math 
     - abs(-1)
-        '''python
+        ``` python
+
         def abs(number):
             """ return gekj gek"""
             return (return)
-        '''
+        ``` 
     - max([1,2,3])
-        '''python
+        ``` python
         def max(a, b):
             """ return a and b max 
             """
             return a
-        '''
+        ``` 
     - 求和：sum(3,5)    //8
     - 序列长度：len('abc')、len([1,2,3])、len((1,2,3))
     - 取模：divmod(5,2) //(2,1)
