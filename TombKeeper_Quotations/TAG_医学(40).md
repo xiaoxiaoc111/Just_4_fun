@@ -35,7 +35,7 @@
 
 [2016-6-14 11:17](https://weibo.com/1401527553/DAbbffIiK?from=page_1005051401527553_profile&wvr=6&mod=weibotime) 来自 [iPhone 6s Plus](http://app.weibo.com/t/feed/5B6hUc)
 
-娃的药吃完了，老婆去医院开。医生跟我老婆说他们没有那种药，因为他们认为三代头孢比二代、一代高级，所以他们医院现在只进三代头孢。![[笑cry]](rwar.assets/2018new_xiaoku_org-1525539877574.png)![[笑cry]](rwar.assets/2018new_xiaoku_org-1525539877574.png)![[笑cry]](rwar.assets/2018new_xiaoku_org-1525539877574.png) 
+娃的药吃完了，老婆去医院开。医生跟我老婆说他们没有那种药，因为他们认为三代头孢比二代、一代高级，所以他们医院现在只进三代头孢。![[笑cry]](TAG_医学(40).assets/2018new_xiaoku_org-1525539877574.png)![[笑cry]](TAG_医学(40).assets/2018new_xiaoku_org-1525539877574.png)![[笑cry]](TAG_医学(40).assets/2018new_xiaoku_org-1525539877574.png) 
 
 标签： [医学](https://weibo.com/1401527553/profile?is_tag=1&tag_name=%E5%8C%BB%E5%AD%A6)
 
@@ -67,7 +67,7 @@
 
 关于美国医生的收入。MedScape 调查了 26 个医疗专业，共 1.95 万名医生在 2014 年的年收入，发布了“Physician Compensation Report 2015”“：[*O*网页链接](http://t.cn/R48tlPs) 。数据如图。这个报告是把各年资的医生放在一起算，所以看不出美国年轻医生的收入情况。 
 
-![img](rwar.assets/53899d01jw1f05wn02x6cj20cp0d4goc-1525539901271.jpg)
+![img](TAG_医学(40).assets/53899d01jw1f05wn02x6cj20cp0d4goc-1525539901271.jpg)
 
 标签： [医学](https://weibo.com/1401527553/profile?is_tag=1&tag_name=%E5%8C%BB%E5%AD%A6)
 
@@ -109,7 +109,7 @@
 
 《Nature》杂志去年有一篇谈癌症流行病学，其中提到由于诊疗技术的进步，前列腺癌和乳腺癌的五年生存率近几十年进步很快，现在都有 90% 左右。我国整体上比英美这样的国家要差一些，但大城市和他们比差的也不多。如果相信科学，愿意接受英美病人所接受的现代医学治疗，中国人也可以享受科技进步成果。 
 
-![img](rwar.assets/53899d01jw1eocbjbuqk1j20lg0p0417-1525539934705.jpg)
+![img](TAG_医学(40).assets/53899d01jw1eocbjbuqk1j20lg0p0417-1525539934705.jpg)
 
 标签： [定期renew](https://weibo.com/1401527553/profile?is_tag=1&tag_name=%E5%AE%9A%E6%9C%9Frenew) [医学](https://weibo.com/1401527553/profile?is_tag=1&tag_name=%E5%8C%BB%E5%AD%A6)
 
@@ -379,7 +379,7 @@ NBCNews.com：法国政府确认：去年在中东地区出现的新型冠状病
 
 破除对“寒凉”的迷信，不是非得逼谁喝凉水。而是爱喝就喝，不爱喝就不喝。至于“体质”……我承认自己“体质”没她好。 
 
-![img](rwar.assets/53899d01jw1du3koe41qlj-1525540181398.jpg)
+![img](TAG_医学(40).assets/53899d01jw1du3koe41qlj-1525540181398.jpg)
 
 标签： [医学](https://weibo.com/1401527553/profile?is_tag=1&tag_name=%E5%8C%BB%E5%AD%A6)
 
@@ -401,11 +401,9 @@ NBCNews.com：法国政府确认：去年在中东地区出现的新型冠状病
 
 [#你信中医还是西医#](https://huati.weibo.com/k/%E4%BD%A0%E4%BF%A1%E4%B8%AD%E5%8C%BB%E8%BF%98%E6%98%AF%E8%A5%BF%E5%8C%BB?from=501) 我觉得单纯信中医，或者相信单纯信西医，都是不合适、不理性、不成熟、不融入主流社会的。至少也应该信中西医结合。作为我个人来说，当然比你们更加成熟一些，所以我现在相信中西藏蒙苗医结合。未来，我还打算把玛雅医学、阿兹特克医学、苏美尔医学、巴比伦医学等都融入进来。 
 
-[![你信中医还是西医](rwar.assets/a50b0fd1ly9fm8eponlcuj2050050dfs-1525540196352.jpg)](http://weibo.cn/pages/100808434391d7c4f88c199b90db9c2c4b8b17?m=3370190105226277&u=1401527553)
+[![你信中医还是西医](TAG_医学(40).assets/a50b0fd1ly9fm8eponlcuj2050050dfs-1525540196352.jpg)](http://weibo.cn/pages/100808434391d7c4f88c199b90db9c2c4b8b17?m=3370190105226277&u=1401527553)
 
  [你信中医还是西医](http://weibo.cn/pages/100808434391d7c4f88c199b90db9c2c4b8b17?m=3370190105226277&u=1401527553)
-
-[参与讨论](javascript:void(0)) [*+*关注](javascript:void(0))
 
 标签： [定期renew](https://weibo.com/1401527553/profile?is_tag=1&tag_name=%E5%AE%9A%E6%9C%9Frenew) [医学](https://weibo.com/1401527553/profile?is_tag=1&tag_name=%E5%8C%BB%E5%AD%A6)
 
