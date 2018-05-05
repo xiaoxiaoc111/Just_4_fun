@@ -110,7 +110,7 @@
 
 有人问我身边有资深绿茶婊咋办，我定睛一看，原来是。。。 
 
-![img](Untitled.assets/48a2f5fdjw1e4yktfy6cej20sg0lcn19.jpg)
+![img](TAG_地球人(29).assets/48a2f5fdjw1e4yktfy6cej20sg0lcn19.jpg)
 
 [2013-5-23 21:59](https://weibo.com/1218639357/zy5pTj4dT) 来自 [iPad客户端](http://app.weibo.com/t/feed/4ACxed)
 
@@ -124,7 +124,7 @@
 
 昨天，Sophie-Shao发了一条微博。我转发时，就担心她顶不住傻逼们的压力会删掉这条微博——会有很多傻逼来喷这一点我根本没有怀疑过，他们的思维和行为就像蛾类幼虫一样可被准确预测，我不确定的只是她会不会删掉这条，所以我存下来了。今天早晨一看，果然删掉了。 
 
-![img](Untitled.assets/53899d01jw1e4r1ey4kxbg20c80armx8.gif)*动图*
+![img](TAG_地球人(29).assets/53899d01jw1e4r1ey4kxbg20c80armx8.gif)*动图*
 
 标签： [定期renew](https://weibo.com/1401527553/profile?is_tag=1&tag_name=%E5%AE%9A%E6%9C%9Frenew) [地球人](https://weibo.com/1401527553/profile?is_tag=1&tag_name=%E5%9C%B0%E7%90%83%E4%BA%BA)
 
@@ -136,7 +136,7 @@
 
 看到一个很好的党化民族主义自测帖（[*O*网页链接](http://t.cn/zlFPNcA)）。看了也认为“老师只是不要画，没说要红包啊”的，是党化民族主义中坚自干铁板流；认为“楼主没有证据，就不应该发贴，看的人也不应该再转”，是党化民族主义事实科学求真流。 
 
-![img](Untitled.assets/53899d01jw1dykbfkg6dtg.gif)*动图*
+![img](TAG_地球人(29).assets/53899d01jw1dykbfkg6dtg.gif)*动图*
 
 标签： [定期renew](https://weibo.com/1401527553/profile?is_tag=1&tag_name=%E5%AE%9A%E6%9C%9Frenew) [地球人](https://weibo.com/1401527553/profile?is_tag=1&tag_name=%E5%9C%B0%E7%90%83%E4%BA%BA)
 
@@ -262,7 +262,7 @@
 
 员工、粉丝、等等，大概分这么三种：李逵、武松、吴用。【宋江：“刚才去茅房，得了三坨宝贝，兄弟们趁热吃了吧”。】【李逵：“公明哥哥，这真香”！】【武松：“大哥，你让我吃，兄弟就吃这一回”。】【吴用：“你开玩笑的吧”？】李逵这种能干活又贴心的小棉袄，可遇不可求，最疼人。 
 
-![img](Untitled.assets/53899d01jw1dqaso675jaj.jpg)
+![img](TAG_地球人(29).assets/53899d01jw1dqaso675jaj.jpg)
 
 标签： [定期renew](https://weibo.com/1401527553/profile?is_tag=1&tag_name=%E5%AE%9A%E6%9C%9Frenew) [地球人](https://weibo.com/1401527553/profile?is_tag=1&tag_name=%E5%9C%B0%E7%90%83%E4%BA%BA)
 
@@ -278,7 +278,7 @@
 
 当你与某人激烈地争论时，有多少次你会突然意识到你搞错了某个关键事实或论据？你会怎么做？会收回前言并向别人承认错误，同时承认别人的解释现在看起来比你的更合理吗？或许不会。如果你和我们中的大多数人一样，那么你会“没完没了地寻找一些合理说法来为自己先前的错误辩解”。[*O*科学松鼠会 » [小红猪\]对伪心理学说不之如何...](http://t.cn/SMvAdN) 
 
-![img](Untitled.assets/5b2b7062gw1dp5f6s0znxj.jpg)
+![img](TAG_地球人(29).assets/5b2b7062gw1dp5f6s0znxj.jpg)
 
 [2012-1-17 14:38](https://weibo.com/1529573474/y1bISb0zn) 来自 [公益版](http://app.weibo.com/t/feed/6pA5c0)
 
@@ -316,7 +316,7 @@
 
 ------
 
-### [tombkeeper](https://weibo.com/101174?refer_flag=1005055015_)  
+### [tombkeeper](https://weibo.com/101174?refer_flag=1005055015_)
 
 [2011-4-29 14:38](https://weibo.com/1401527553/ezmCjT57sL4?from=page_1005051401527553_profile&wvr=6&mod=weibotime) 来自 [微博 weibo.com](http://weibo.com/)
 
