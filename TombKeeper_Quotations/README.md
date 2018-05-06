@@ -27,7 +27,7 @@ README.md
 | [TAG_APT(96)](TAG_APT(96).md)               | ok       | 2018/05/06 |
 | [TAG_笑话(266)](TAG_笑话(266)/)             | ok       | 2018/05/07 |
 | [TAG_信息安全(383)](TAG_信息安全(383)/)     | ok       | 2018/05/07 |
-| TAG_定期renew(809)[]()                      |          |            |
+| [TAG_定期renew(809)](TAG_定期renew(809)/)   | ok       | 2018/05/07 |
 
 - [格式转换-python](python_test/)
 
