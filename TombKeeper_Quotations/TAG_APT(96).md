@@ -31,10 +31,6 @@ Adobe 今天的安全公告信息量很大。里面提到 CVE-2015-8651 已经�
 
 你们先回顾一下这几条微博：[*O*网页链接](http://t.cn/R4yzyDJ)，[*O*网页链接](http://t.cn/8Fqjk88)，[*O*网页链接](http://t.cn/R4yzyD6)， 再看这个：[*O*网页链接](http://t.cn/R4yzyDi) 。简单说就是 Juniper 在他们的 ScreenOS 里发现了“unauthorized code”，留这些代码的人可以获得 Juniper 设备的控制权，以及解密 VPN 通信。 
 
-- [***42*](https://weibo.com/1401527553/D8XH8hRSy?type=repost)
-- [** *3*](https://weibo.com/1401527553/D8XH8hRSy)
-- [*ñ**10*](javascript:void(0);)
-
 [2015-12-18 11:19](https://www.weibo.com/1401527553/D8XH8hRSy) 来自 [微博 weibo.com](http://weibo.com/)
 
 标签： [APT](https://www.weibo.com/1401527553/profile?is_tag=1&tag_name=APT) [信息安全](https://www.weibo.com/1401527553/profile?is_tag=1&tag_name=%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8)
@@ -70,7 +66,7 @@ Adobe 今天的安全公告信息量很大。里面提到 CVE-2015-8651 已经�
 
 习近平和奥巴马这周可能会达成世界上第一个网络武器控制双边协议，相互承诺不首先使用网络武器攻击对方的重要基础设施。“相互承诺不首先使用”之类，以前是在谈核武器的语境下才会使用的。 
 
-- ![img](TAG_APT(96).assets/53899d01jw1ew8n0iuc9ej20m80fen0w.jpg)
+![img](TAG_APT(96).assets/53899d01jw1ew8n0iuc9ej20m80fen0w.jpg)
 
 标签： [APT](https://www.weibo.com/1401527553/profile?is_tag=1&tag_name=APT) [定期renew](https://www.weibo.com/1401527553/profile?is_tag=1&tag_name=%E5%AE%9A%E6%9C%9Frenew) [信息安全](https://www.weibo.com/1401527553/profile?is_tag=1&tag_name=%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8)
 
