@@ -466,3 +466,46 @@ AOL, Apple, Facebook, Google, LinkedIn, Microsoft, Twitter, Yahoo 联名向美�
 我高中数学老师很矬，班里数学成绩比非重点班还差。班长想造反，但她不擅言辞，于是找我帮忙。我们搞了场政变：我做演说，班长主持换老师的公投。计划把公投结果递给校长。但我们没想到多数同学根本不想换老师——一个作业不多啥都不管的数学老师为什么要换掉？现在想起来，我们那就叫右派政治幼稚病。 
 
 标签： [定期renew](https://www.weibo.com/1401527553/profile?is_tag=1&tag_name=%E5%AE%9A%E6%9C%9Frenew)
+
+
+
+---
+
+
+
+
+
+
+
+导航
+
+* [TAG_定期renew(809)](TAG_定期renew(809)/)
+
+  * [定期renew1](TAG_定期renew(809)/定期renew1.md)   [定期renew2](TAG_定期renew(809)/定期renew2.md)   [定期renew3](TAG_定期renew(809)/定期renew3.md)   [定期renew4](TAG_定期renew(809)/定期renew4.md)   [定期renew5](TAG_定期renew(809)/定期renew5.md)   [定期renew6](TAG_定期renew(809)/定期renew6.md) 
+  * [定期renew7](TAG_定期renew(809)/定期renew7.md)   [定期renew8](TAG_定期renew(809)/定期renew8.md)   [定期renew9](TAG_定期renew(809)/定期renew9.md)   [定期renew10](TAG_定期renew(809)/定期renew10.md) [定期renew11](TAG_定期renew(809)/定期renew11.md) [定期renew12](TAG_定期renew(809)/定期renew12.md) 
+  * [定期renew13](TAG_定期renew(809)/定期renew13.md) [定期renew14](TAG_定期renew(809)/定期renew14.md) [定期renew15](TAG_定期renew(809)/定期renew15.md)[定期renew16](TAG_定期renew(809)/定期renew16.md) [定期renew17](TAG_定期renew(809)/定期renew17.md) [定期renew18](TAG_定期renew(809)/定期renew18.md) 
+
+* [TAG_信息安全(383)](TAG_信息安全(383)/)
+
+  * [信息安全1](TAG_信息安全(383)/信息安全1.md)  [信息安全2](TAG_信息安全(383)/信息安全2.md)  [信息安全3](TAG_信息安全(383)/信息安全3.md)  [信息安全4](TAG_信息安全(383)/信息安全4.md)  [信息安全5](TAG_信息安全(383)/信息安全5.md)  [信息安全6](TAG_信息安全(383)/信息安全6.md)
+  * [信息安全7](TAG_信息安全(383)/信息安全7.md)  [信息安全8](TAG_信息安全(383)/信息安全8.md)  [信息安全9](TAG_信息安全(383)/信息安全9.md)
+
+* [TAG_笑话(266)](TAG_笑话(266)/)  
+
+  * [笑话1](TAG_笑话(266)/笑话1.md)  [笑话2](TAG_笑话(266)/笑话2.md)  [笑话3](TAG_笑话(266)/笑话3.md)  [笑话4](TAG_笑话(266)/笑话4.md)  [笑话5](TAG_笑话(266)/笑话5.md)  [笑话6](TAG_笑话(266)/笑话6.md)
+
+* [TAG_APT(96)](TAG_APT(96).md)  
+
+* [TAG_无线安全(51)](TAG_无线安全(51).md)  
+
+* [TAG_医学(40)](TAG_医学(40).md)  
+
+* [TAG_对照着看(32)](TAG_对照着看(32).md) 
+
+*  [TAG_地球人(29)](TAG_地球人(29).md) 
+
+*  [TAG_影视作品(24)](TAG_影视作品(24).md)   [TAG_Heartbleed(16)](TAG_Heartbleed(16).md)   [TAG_加密货币(15)](TAG_加密货币(15).md)   [TAG_SCADA(14)](TAG_SCADA(14).md)   [TAG_青年和禅师(8)](TAG_青年和禅师(8).md)  
+
+    [TAG_朱令案(6)](TAG_朱令案(6).md)   [TAG_误解(7)](TAG_误解(7).md)    [TAG_尤克里里(4)](TAG_尤克里里(4).md)   [TAG_节操(4)](TAG_节操(4).md)     [TAG_典故(3)](TAG_典故(3).md)   [TAG_寡妇王(3)](TAG_寡妇王(3).md)    [TAG_美(3)](TAG_美(3).md)    
+
+    [ TAG_2571(1)](TAG_2571(1).md)     [TAG_备用(1)](TAG_备用(1).md)    
