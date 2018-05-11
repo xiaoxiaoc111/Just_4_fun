@@ -6,16 +6,16 @@
 
 ### Perference
 
----
+------
 
-- [群晖DSM6.1应用详解 篇二](群晖DSM6.1应用详解 篇二.md)
-- [群晖DSM6.1应用详解 篇三](群晖DSM6.1应用详解 篇三.md)
+- [群晖DSM6.1应用详解 篇二](nas2.md)
+- [群晖DSM6.1应用详解 篇三](nas3.md)
 
 
 
 ### Notes
 
----
+------
 
-- [群晖DSM使用小记](群晖DSM使用小记.md)
+- [群晖DSM使用小记](Using_Notes_SynologyDsm.md)
 
