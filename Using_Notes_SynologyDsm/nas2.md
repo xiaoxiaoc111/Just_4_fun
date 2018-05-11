@@ -18,15 +18,15 @@
 
 ​       同步、备份、快照可以合称为C.H.S，是群晖的DSM系统中最重要的数据安全套件，其重要性和你的电脑中的以CHN、ipz![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\78-1526043602200.png) 系列字母连号命名的.avi文件一样无比崇高![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\64-1526043602182.png) 
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58d9633ec7fe51971.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_2/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58d9633ec7fe51971.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_2/)
 
 ​       同步（Cloud Station）是同步功能套件的统称，其中的云同步（Cloud Station Drive）和云备份（Cloud Station Backup）可以应用在你每一台需要进行数据保护的电脑上，并保存在群晖NAS的Home或者homes[文件夹](https://www.smzdm.com/fenlei/wenjianjia/)中，一方面可以随时同步你个人电脑上的文件；另一方面可以保证电脑上的文件有最多32份备份可以回溯。
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58d964ed8af3a473.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_3/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58d964ed8af3a473.jpg_e600.jpg)]
 
 ​       备份（Hyper Backup）是群晖NAS内部数据最重要的的保护手段（同步主要是电脑端和NAS端之间），可将home或homes文件夹通过备份操作生成专有的文件格式，通过变量备份的方式保存在NAS本机或者另外的群晖NAS上，并且可以使用通过本地复制或者远程复制定时复制文件。DSM6.1对备份有了两大改动，一是可以装载备份目的地文件夹，然后在Windows系统下可以通过打开对应文件夹来查看或恢复备份文件；二是在原有变量备份的基础上，实现了跨文件夹去重复数据的备份![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\28.png) 。
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58d96521be9634872.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_4/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58d96521be9634872.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_4/)
 
 ​       快照（Snapshot Replication）所生成的镜像文件在被保护的文件夹内可见，保存在同一个存储卷内，所以一定要慎重选择快照的频率和保存的数量。需要注意的是快照可以对home或者homes文件夹进行快照，但是无法通过复制功能将这两个文件夹保存到另一台群晖NAS中，而且Btrfs格式的易用性未必有ext4高，一旦出了问题不能像ext4模式的硬盘一样接在电脑上通过Ubuntu来进行抢救。
 
@@ -34,53 +34,53 @@
 
 ​       枯燥且生硬的区分，请看下面的群晖官网对比图![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\44.png) ：
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58d966574bfa92500.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_5/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58d966574bfa92500.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_5/)
 
 上图看的懂的就懂了，看不懂的![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\79.png) 也不要急着骂娘，因为接下来，我将详细的逐个讲解操作方式![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\67-1526043602321.png) 
 
 ## Cloud Station
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](https://am.zdmimg.com/201703/28/58d9633ec7fe51971.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_6/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](https://am.zdmimg.com/201703/28/58d9633ec7fe51971.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_6/)
 
 ​       Cloud Station套件其实是一个套件组，包含5个功能模块，其中Cloud Station Server是Cloud Station在NAS上的[服务器](https://www.smzdm.com/fenlei/fuwuqi/)端；云同步（Cloud Station Drive）和云备份（Cloud Station Backup）是电脑端软件，Drive是电脑端和NAS端的双向同步，Backup是电脑端向NAS端的单向备份；Cloud Station ShareSync是群晖NAS和NAS之间的同步；DS Cloud是移动端APP。
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58d96c8d161662558.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_7/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58d96c8d161662558.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_7/)
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58d96c78e35847817.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_8/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58d96c78e35847817.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_8/)
 
 ​       首先要在群晖NAS端安装好Cloud Station Server套件，并可以通过Cloud Station Server的主界面或者群晖官网下载好电脑端软件，注意区分Drive是同步，Backup是备份
 
 ### →云同步Cloud Station Drive   
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58d96d0f66d4c2295.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_9/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58d96d0f66d4c2295.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_9/)
 
 安装过程比较简单，选好目录安装到电脑中
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58d96d58c511b2530.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_10/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58d96d58c511b2530.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_10/)
 
 ​       因为Cloud Station作为企业及个人云服务的功能基础，接下来的设定部分就非常重要，云服务的重点是同步文件，而最好的运行方式则是不知不觉就同步完成。所以一定要按照自己的需求设定好同步的选项，文件夹选定自不必说，注意右下角红圈的那个选项，是会在选定的文件夹下新建一个空文件夹。在高级选项中，可设定文件过滤，筛选不想要同步的文件大小和后缀名。
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58e3d8907b78e38.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_11/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58e3d8907b78e38.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_11/)
 
 如果出现无共享文件夹可用于同步的话不要着急，开启用家目录服务可破![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\60-1526043602321.png) 
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58d9701589e1e3979.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_12/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58d9701589e1e3979.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_12/)
 
 ​       以我自己为例，我需要同步的文件分两个部分，一个是同步家里的工作文件（往年的文件我已经备份到家里了，文件量为15.1G，9592个文件，1036个文件夹，如上图），另一个是同步单位2016年的历史工作文件（下图才是）。文件量为1.21G，494个文件，92个文件夹。这里有一个显示问题，那就是我在win7下属性查看到的文件数量为9592个文件，但是群晖的软件显示的同步的文件数量要高于这个数字（上图为9700多）。同步速度方面，DS916+和DS216+II要比216j同步的快，应该是机能差距导致，从DSM6.0开始Cloud Station对这种零散小文件（大量Word、表格、照片）的同步速度比之前版本有很大提高，DSM6.1仍旧保持这种优化速度，感觉甚至要比直接复制还要快很多。
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58d970bdea5033186.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_13/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58d970bdea5033186.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_13/)
 
 ​       在单位同步文件是一样的步骤，唯一的不同网络上行速度，网络上行速度决定了Cloud Station的同步上传速度。像我这种Word和Excel表格还有照片为主的这种应用环境，一旦有文件改动，马上就会触发同步上传，而如果由于网络需要还可以暂停任务等下次继续同步
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58d971a5a47f66561.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_14/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58d971a5a47f66561.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_14/)
 
 ​     Cloud Station Drive软件界面有专门的示意图，界面是英文提示是中文，没有完全本土化，差评![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\103-1526043602430.png) ~~
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58e3d61c28a2b4139.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_15/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58e3d61c28a2b4139.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_15/)
 
 高级设置界面和同步日志，同步日志可以查看同步的文件情况
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58e3d699b949a4375.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_16/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58e3d699b949a4375.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_16/)
 
 添加新的同步任务也一样按需设置，非常方便
 
@@ -88,7 +88,7 @@
 
 ​       云备份功能说的高大上，其实相当简单，就是将电脑上的文件备份至群晖NAS端，不仅可以保存32个版本还可以直接在共享文件夹上进行查看
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ed5229e745d4708.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_17/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ed5229e745d4708.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_17/)
 
 ​       Cloud Station的备份功能界面与同步功能如出一辙，可以选择备份的内容和备份目的地，如果有特殊要求，也可以设置备份规则，比如后缀名、备份文件大小等。与同步的区别主要有三点，一是可以进行变量备份，可以保存32个历史版本，并能回溯文件修改记录；二是单向备份（电脑端备份至NAS端）；三是版本资源管理器，用来选择备份版本
 
@@ -98,23 +98,23 @@
 
 ​       如果要在两台群晖NAS之间进行数据同步，那么就需要请出Cloud Station ShareSync
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58e3da919c1522423.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_18/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58e3da919c1522423.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_18/)
 
 ​       首先是通过设置QuickConnect来进行两台群晖NAS的同步，只是连接成功之后按常理会出现“无共享文件夹可同步”的提示，我并不是在逗大家玩![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\51-1526043602475.png) ，而是群晖并没有在这里出现一个温馨提示，提示一下仅靠默认“用户家目录”启用同步是无法进行NAS之间同步的，也就是说无法同步“home”或者”homes“文件夹。具体该如何设置请看下图
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58e3db14a71866827.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_19/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58e3db14a71866827.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_19/)
 
 ​       在Cloud Station Server的左侧的设置中，可以对需要进行同步的文件夹启用同步，接下来就是设置同步版本数量等选项，启用好同步文件夹之后，即可以完成设定
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58e3db2d682ed6151.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_20/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58e3db2d682ed6151.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_20/)
 
 ​       同步任务开始，注意，这个界面只是在开启同步任务设置的群晖NAS上显示，同步目的地群晖NAS的Cloud Station ShareSync是不显示上图界面的
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58e3dbb70457d6480.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_21/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58e3dbb70457d6480.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_21/)
 
 ​       如果想要修改同步文件夹，可以点击同步任务的正在共享选项，有一个扳手样子的图标即时高级设置，可以对文件夹、文件过滤和权限设置进行设置，不过权限设置主要是稳健的同步模式和同步方向
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58e3dbe9276f04409.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_22/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58e3dbe9276f04409.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_22/)
 
 ​        同一局域网内的群晖NAS间同步传输速度以DS916+和DS216+II为例，20G的高清电影用[移动硬盘](https://www.smzdm.com/fenlei/yidongyingpan/)复制进DS216+II的同步目标文件夹的同时，就已经启动同步传输，最高可以达到110.8MB/s，低点为92.7MB/s，截图中的前4个文件为小文件，第5个文件是20G的主文件。
 
@@ -128,9 +128,9 @@
 
 ​       不过有一处小BUG需要指出来![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\49.png) ，那就是Cloud Station Drive电脑端软件的搜索功能，如果首先搜索的是数字且将下拉菜单打开，那么接下来在下拉菜单中输入想要搜索的内容是不会显示且没有作用的，如下图，想破也不难![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\51-1526043602475.png) ，不要打开下拉菜单，直接搜索就好了。
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ebc2bc1a65a9491.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_23/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ebc2bc1a65a9491.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_23/)
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ebc2cb6ebf84341.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_24/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ebc2cb6ebf84341.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_24/)
 
 ## 备份Hyper Backup
 
@@ -138,15 +138,15 @@
 
 ​       若是经常改动数据的企事业单位机关，Cloud Station Backup实时备份保存的32次版本可能不够，如果发现改动的数据或者文档已经过了版本限制怎么办？Hyper Backup就派上大用场了，DSM6.0的Hyper Backup的备份效果图如下：
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58e9c4e4503794473.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_25/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58e9c4e4503794473.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_25/)
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58e9c4b3344324846.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_26/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58e9c4b3344324846.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_26/)
 
 ​       变量备份简单来说就是我对测试的文件夹进行了备份之后（占用存储空间58.38G），删除了该文件内的2.6G文件，再转入测试文件夹2G多的不同文件，再进行备份，备份占用的存储空间只比之前多了2G多（前提是设定好不删除以往版本，不然的话，本次备份会覆盖掉之前的版本，默认备份保存版本为256份，应该没有人会设定只保存1份备份的吧），全部备份文件占60.74G。
 
 ​       在DSM6.1中，有两个看似不大的变动，一个是群晖对Hyper Backup备份产生的特殊格式文件进行了重新设计，当备份完成之后，可以对备份文件进行装载，并能够直接在Windows系统中查看、恢复备份文件，大大改善了备份文件浏览和还原的体验；另一个是在DSM6.0的变量备份基础上升级成跨档案的去重复技术，比对备份中不同部门、不同工作人员的文件数据档案，不备份重复的数据，也就是说，两个部门各有2T的数据文件，但是其中有1T是完全相同的，那么备份会对3T的文件数据进行备份而不是4T![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\33-1526043602540.png) ，直接的影响就是备份的磁盘空间利用效率提高，不过也有其他影响，详见下文。
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58e9c62a6170e9325.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_27/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58e9c62a6170e9325.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_27/)
 
 ​     Hyper Backup备份的功能其实非常多，DSM6.1相比6.0增加了Synology C2 Beta，本次测评选择其中主要的四个，分别为本地共享文件夹和外接存储、远程Synology NAS、本地数据复制、远程数据复制
 
@@ -154,20 +154,20 @@
 
  开启备份任务具体步骤如下
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ea861da1d643931.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_28/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ea861da1d643931.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_28/)
 
 ​       每个步骤简洁明了，首先是选择好备份的目的地文件夹，之后选定需要备份的文件夹，接下来就是应用程序备份、备份设置、轮换设置。其中，应用程序备份是正式版新添加的步骤，专门为了备份套件的相关数据，非常贴心。
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58eba02e5a3c78663.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_29/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58eba02e5a3c78663.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_29/)
 
 ​       由于DSM6.1采用的变量备份方式，所以在备份目标文件未改动或改动极小的情况下，按照计划任务进行备份的速度会非常快，如果想要在原有备份的文件夹基础上进行增量备份，在设置或者编辑中添加相关文件夹即可，如果想要调整备份的时间间隔或者版本替换方式，可以通过立即备份后的第三个选项或者在任务设置栏的设置中进行编辑，如下图
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ebbd80e733a3631.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_30/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ebbd80e733a3631.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_30/)
 
 ​       设置成功后每小时都可以进行备份，数据经常进行变动的可以更安心一些了（请注意，上上图的红框是提醒我这样操作是错误的，上图的选择操作才是正确的）
        主界面还有备份统计功能，如下图
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ebcdc099ef2526.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_31/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ebcdc099ef2526.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_31/)
 
 ​       备份统计功能主要是对数据的增加、变动、修改和删除进行检查和提示警告，一个贴心的小提示
 
@@ -175,11 +175,11 @@
 
 ​       ①Hyper Backup备份的文件是以专有形式保存，但是DSM6.1升级之后已经可以直接和共享文件夹中挂载并读取文件内容，或者通过打开备份资源管理器进行查找和复制等操作，如果仅寻找小部分文件，不必进行大还原覆盖，比之前版本方便许多。如下图
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ebcb718d1ab9281.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_32/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ebcb718d1ab9281.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_32/)
 
 ​       ②如下图所示：210G的homes文件夹备份后所占用的体积仅为82.5G，这就是Hyper Backup备份的最近技术→跨档案去重复技术，备份任务运行的时候会比对重复的文件数据
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ebbd81c3dbe1964.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_33/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ebbd81c3dbe1964.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_33/)
 
 ​      不过需要注意的是不要光听群晖在那吹好处，虽然跨档案去重复技术大大节省了磁盘空间，但是会影响首次备份的时间，备份数据越多越庞杂，耗时越长![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\91.png) ，不过由于第二次仅是针对原有数据的变量进行备份，所以如果数据变动量不大的话，第二次备份任务耗时会大大缩短![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\67-1526043602321.png) ，需要注意的是群晖NAS的机能直接影响备份运行的速度，这绝壁是群晖诱导我们升级机器的阴谋![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\43-1526043602148.png) 
 
@@ -187,11 +187,11 @@
 
 ​       远程Synology NAS功能是将本机的数据通过局域网或者互联网备份至另一台群晖NAS上
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ebce52751f46232.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_34/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ebce52751f46232.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_34/)
 
 ​        和本地共享文件夹和外接存储备份一样，每个步骤非常简洁明了，加入了自动搜索局域网内群晖NAS的备份目的地设置，选择好备份的目的地服务器、目的地文件夹还有需要备份的文件夹后，接下来就是应用程序备份、备份设置、轮换设置。
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ebcf5ca24e83271.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_35/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ebcf5ca24e83271.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_35/)
 
 ​       远程备份任务完成之后，显示如图，显示上一次备份时间和下一个计划的备份时间，在DS216+II上的备份目的地文件夹内也生成了备份任务的文件夹，请注意，DSM6.1的Hyper Backup备份文件已经可以在文件夹内挂载查看，不必非得还原或者通过Hyper Backup Explorer桌面工具才能读取
 
@@ -199,11 +199,11 @@
 
 ​       本地数据复制，这个功能是将本地文件夹复制到本地另外一个文件夹
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ebcf9497d7a2676.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_36/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ebcf9497d7a2676.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_36/)
 
 ​        设置过程并不难，按照需求选好选项即可，先选择备份目的地文件夹，后选择的是备份目标文件夹，在主要步骤还有贴心提示，比如说建议不要把本地复制数据复制到同一个卷内，在备份向导的最后一步还有各种详细选项，一般个人用户默认即可，但是有详细需要的或者单位企业用户还是要认真选择
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ebd073c9bde7227.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_37/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ebd073c9bde7227.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_37/)
 
 ​      本地复制完成之后，显示如图，显示上一次备份时间和下一个计划的备份时间，Hyper Backup的本地复制的文件夹是可以直接在File Station和共享文件夹查看的
 
@@ -211,11 +211,11 @@
 
 ​       远程数据复制即是将本台群晖NAS的数据复制到另一台群晖NAS或者兼容rsync服务器上
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ebd0d22ca9d4681.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_38/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ebd0d22ca9d4681.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_38/)
 
   设置过程比本地复制多了选择服务器地址部分，然后是选择备份目的地文件夹，再然后是选择备份目标文件夹，在备份向导的最后一步还有各种详细选项，打算使用远程数据复制的基本都是拥有两台群晖NAS以上的用户，建议由详细需要的或者单位企业用户还是要认真选择
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ebd3548520a8659.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_39/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ebd3548520a8659.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_39/)
 
 ​       本地复制完成之后，显示如图，显示上一次备份时间和下一个计划的备份时间，Hyper Backup的远程复制功能复制的文件夹是可以直接在File Station和共享文件夹查看的
        Tip:本地复制和远程复制在主界面都没有备份资源管理器和备份统计
@@ -232,33 +232,33 @@
 
 ​       群晖是在DSM6.0 Beta版推出的时候特别推荐的Btrfs文件系统，用来配合新推出的快照功能，可以快速回复文件。
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ed5c383e1e08876.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_40/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ed5c383e1e08876.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_40/)
 
 ​       主界面打开后就是总览，显示的是快照所保护的数据占整个存储空间的占比还有用时间轴标示的最近快照的情况
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ed5772920734626.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_41/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ed5772920734626.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_41/)
 
 ​       要想对共享文件夹进行保护，直接点选拍快照即可
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ed57d4868739244.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_42/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ed57d4868739244.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_42/)
 
 ​       设定快照的步骤只有3步，非常方便，但是需要认真确定各个选项
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ed584885cf36952.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_43/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ed584885cf36952.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_43/)
 
 ​       设定完成之后，在快照内的共享文件夹列表中即可看到“已计划”三个字，与其他没有受到计划保护的共享文件夹区别开来
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ed60529ec1f5603.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_44/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ed60529ec1f5603.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_44/)
 
 ​       选择对哪个共享文件夹进行快照，就会在该文件夹下设立一个snapshot的特殊文件夹，里面存放着所有快照，需要打开改共享文件夹下的“让快照可见"的选项,在还原和特定步骤会出现提示，提醒开启选项，基本算是半自动化可见。
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58eda308398b58957.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_45/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58eda308398b58957.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_45/)
 
 ​       以对homes文件夹的快照为例，设定好快照任务后会在在homes文件夹内生成一个snapshot文件夹，文件夹内的每一个快照都是一份镜像，积累下来会占用不小的存储空间
 
 ### →还原 
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58eda31699b3e7854.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_46/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58eda31699b3e7854.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_46/)
 
 ​      快照的还原也非常方便，选择快照并选定恢复点之后，可以选择还原到适当位置（即还原到原位置）或者是以新名称克隆（其实是新建一个共享文件夹）
 
@@ -266,18 +266,18 @@
 
 ​       在群晖的宣传说明中写过Btrfs格式下的文件可以自动修复这个新功能，因为快照套件和Btrfs格式密不可分，要实现快照功能必须使磁盘运行在Btrfs格式下，所以我给放在快照中说明一下。这个功能看起来高大上，说是在 DSM 6.1版本的Btrfs格式下，系统能够侦测 silent data corruption—无记载数据损坏错误，而且能够自动修复错误的文件数据资料。目测这个功能是个默默的守护者，不过我在一个朋友的群晖NAS的日志中心还真有看到提示![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\78-1526043602200.png) ，不过并不是文件自动修复成功的提示，而是失败的提示o(╯□╰)o![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\81.png) ，如下图。
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58edb05a4f7052124.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_47/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58edb05a4f7052124.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_47/)
 
 ### →将文件夹复制到其他群晖NAS中（注意是复制而非备份） 
 
 ​        其实Snapshot Replication的复制功能和Cloud Station ShareSync还有Hyper Backup的远程备份目的一致，那就是直接在另一台群晖NAS上保存数据，只是效果各不相同，需要注意的是复制目标的群晖NAS必须有一个Btrfs存储空间，而且无法复制源NAS的home和homes文件夹。接下来以群晖DS916+和DS216+II为例进行操作
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ebd63ca0e9d5413.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_48/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ebd63ca0e9d5413.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_48/)
 
 ​       复制是通过将目标共享文件夹的内容完整的在复制目的NAS上建立一个镜像，而所有的文件都可以在镜像中读取的方式对源NAS中的数据进行多机保存的数据安全备份方式。
        在设定任务过程中需要注意复制计划和源服务器设置保留政策这两个步骤，一个是确定复制频率，而一个是确定保存快照的数量，完全需要由单位企业根据数据实际需要和所使用的群晖NAS的硬盘容量大小来进行安排，因为快照不同于备份和云同步，每一次快照都是对数据的一次镜像。
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ebd83cb41ea5280.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_49/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ebd83cb41ea5280.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_49/)
 
 ​      复制设定完成后，DS916+和DS216+II的复制界面会提示成功并显示来源，复制目的文件夹会自动设定为只读，防止修改同步文件的大小和下一次运行时间等信息也一目了然。需要注意的是，复制操作的最高目标数是3个，即最多可以有3台群晖NAS作为快照备份机存在。
 
@@ -289,27 +289,27 @@
 
 ​         USB Copy2.0是随着DSM6.1更新的一个功能套件，适用于所有的群晖NAS，无需登录群晖的Web界面，直接接入USB外置[存储设备](https://www.smzdm.com/fenlei/cunchushebei/)，就可以将USB接入设备中的文件备份至群晖NAS里，是作为群晖NAS的主要冷备份手段。
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ed49dbeadff6110.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_50/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ed49dbeadff6110.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_50/)
 
 ​        首次进入USB Copy的主界面会直接要求设定导入导出的任务，给出了3个选项，一是照片/视频导入，二是数据导入，三是数据导出，具体设置在任务设置和文件过滤器中，照片/视频导入的任务设置有三个主要选项，一是插入USB/SD存储设备时，立即复制数据，二是复制完成后推出USB/SD存储设备，三是复制完成删除源文件（此项必须慎重！如无必要，请忽视第三个选项）
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ed4b069053d6459.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_51/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ed4b069053d6459.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_51/)
 
 ​        数据导入的任务设置需要非常认真，因为数据导入不同于照片/视频导入，有三种复制模式的选择，分别是多版本、增量、镜像，简单来说，多版本就是插一次导入一次，每次的导入文件夹按照任务时间定名；镜像就是你的源文件夹啥样，目的地文件夹就啥样；增量则是删的不管你，修改过的覆盖旧的，新的继续导入。而且增量部分还有删除目的地文件夹中的原始文件结构（即平展所有文件）这个选项，请慎用，因为会拆出源文件夹下的子文件夹中的文件。
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ed4b2c138618993.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_52/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ed4b2c138618993.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_52/)
 
 ​       任务完成后会在主界面右上角的消息栏显示提示，而且会伴随短蜂鸣提示(可在主界面的配置进行，如果设定了完成后USB设备弹出，那么提示后就可以直接拔了设备了
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ed4bafd4499504.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_53/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ed4bafd4499504.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_53/)
 
 ​       主界面可以显示运行的复制任务情况，完成的会有绿色对号提示
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ed4c03c55b25941.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_54/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ed4c03c55b25941.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_54/)
 
 ​       务必慎用“删除目的地文件夹中的原始文件结构（即平展所有文件）下的用修改时间重命名图像和视频”不然传输高清文件就会遇到文件改名的情况，如上图
 
-[![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ed4c1def0f19330.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_55/)
+![群晖DSM6.1应用详解 篇二：群晖DSM6.1数据安全三猛将→同步、备份、快照，+新兵USB Copy2.0](assets\58ed4c1def0f19330.jpg_e600.jpg)](https://post.smzdm.com/p/545304/pic_55/)
 
 ​        需要注意的是在同一个usbshare内，只能运行一个复制或者导出任务，如果想设定在同一个usbshare内复制同时导出，就会弹出上图提示。
 
