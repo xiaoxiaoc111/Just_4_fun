@@ -10,6 +10,8 @@
 
 Dear 13-year-old Ray,
 
+
+
 When you get off the school bus tomorrow, you’re going to be in a whole new world. This is nothing new. Every time your father gets stationed at a new Air Force base, you have to say goodbye to your friends and start a new life. It’s the same routine once every three years or so. New school, new culture, new faces.
 
 Northern California. Then Germany. Then Oklahoma. Then England. Then Southern California.
